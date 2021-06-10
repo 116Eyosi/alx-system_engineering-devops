@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod  g-w helloo
+chmod  g-w hello
