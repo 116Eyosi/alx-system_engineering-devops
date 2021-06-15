@@ -1,0 +1,2 @@
+#!/bin/bash
+if [wc -l%2==0] then echo ls -l|wc -l |else break
