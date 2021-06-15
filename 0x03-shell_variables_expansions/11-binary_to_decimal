@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=7| 23" | bc
+echo $((BINARY $((2**{0..BINARY|length($0)}))))
