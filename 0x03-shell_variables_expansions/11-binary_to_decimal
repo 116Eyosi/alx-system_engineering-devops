@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "obase=7| 23" | bc
