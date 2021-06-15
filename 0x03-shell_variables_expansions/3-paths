@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type d |wc -l $path
+ echo $path |tr ':' '\n' | wc -l
