@@ -1,2 +1,2 @@
 #!/bin/bash
-if [wc -l%2==0] then echo ls -l|wc -l |else break
+ls / -1 | sort | perl -ne 'print if $. % 2 != 0;'
