@@ -2,8 +2,8 @@
 # prints best school 10 times
 
 COUNTER=0
-while (( COUNTER<10))
+while [ $COUNTER -le 10 ]
 do
 	echo "Best School"
-        let COUNTER=COUNTER+1
+	COUNTER=$((COUNTER + 1))
 done
