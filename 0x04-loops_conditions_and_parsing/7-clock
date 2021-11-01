@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# prints clock
+i=0
+while [ $i -le 12 ];
+do
+	echo Hour: $i
+	let i=i+1
+	j=1
+	while [ $j -lt 60 ];
+	do
+		echo $j
+		let j+=1		
+	done
+done

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# prints best school 10 times
+for i in `ls`;
+do
+	name=(${i//-/ })
+	echo ${name[1]}
+done
